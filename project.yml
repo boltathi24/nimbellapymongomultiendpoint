@@ -1,0 +1,9 @@
+bucket:
+  strip: 1
+packages:
+  - name: default
+    actions:
+      - name: hello
+        runtime: python:3
+      - name: hello2
+        runtime: python:3
